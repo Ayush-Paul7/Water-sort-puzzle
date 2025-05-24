@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💧 Water Sort Pro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>💧 Water Sort Game</h1>
+    <div class="level-info">Level <span id="level">1</span></div>
+    <div class="score">Score: <span id="score">0</span></div>
+    <button id="nextLevelBtn" class="hidden">Next Level ▶</button>
+    <button id="resetBtn">🔄 Restart</button>
+  </div>
+  <div id="game"></div>
+
+  <audio id="clickSound" src="click.mp3"></audio>
+  <audio id="moveSound" src="move.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
